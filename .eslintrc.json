@@ -1,0 +1,11 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "no-unused-vars": [1, { "args": "after-used", "argsIgnorePattern": "^_" }],
+    "space-before-blocks": "off",
+    "quotes": "off",
+    "semi": "off",
+    "no-extra-semi": "off",
+    "max-len": ["error", { "code": 60 }]
+  }
+}

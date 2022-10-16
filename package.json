@@ -1,0 +1,36 @@
+{
+  "name": "next-js-template",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "npm": "We are using Bun",
+    "yarn": "We are using Bun",
+    "pnpm": "We are using Bun",
+    "bnvmun": "^0.2.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "npx cypress run --component && npx cypress run",
+    "prettier": "prettier --write .",
+    "prepare": "npx husky install"
+  },
+  "dependencies": {
+    "cypress": "^10.10.0",
+    "husky": "^8.0.1",
+    "next": "^12.3.1",
+    "prettier": "^2.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.0",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "eslint": "^8.25.0",
+    "eslint-config-next": "^12.3.1",
+    "typescript": "^4.8.4"
+  }
+}
